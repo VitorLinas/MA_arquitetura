@@ -466,6 +466,42 @@ footer{
 
     #projetos h1{
         font-size: 40px;
+        color: olivedrab;
+        margin-top: 130px;
+    }
+
+    .casaProjetos{
+        margin-top: 130px;
+    }
+
+    .casaProjetos img{
+        width: 400px;
+        height: 250px;
+    }
+    
+    .casaProjetos p{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1100px){
+
+    #projetos h1{
+        color:fuchsia ;
+        margin-top: 100px;
+    }
+
+    .casaProjetos{
+        margin-top: 100px;
+    }
+
+    .casaProjetos img{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .casaProjetos p{
+        font-size: 20px;
     }
 }
 
@@ -473,6 +509,21 @@ footer{
 
     #projetos h1{
         font-size: 30px;
+        color: orange;
+        margin-top: 80px;
+    }
+
+    .casaProjetos{
+        margin-top: 80px;
+    }
+
+    .casaProjetos img{
+        width: 200px;
+        height: 170px;
+    }
+    
+    .casaProjetos p{
+        font-size: 15px;
     }
 }
 
@@ -480,5 +531,22 @@ footer{
 
     #projetos h1{
         font-size: 30px;
+        color: brown;
+    }
+
+    .casaProjetos{
+        display: block;
+    }
+
+    .casaProjetos img{
+        width: 100%;
+        height: 60vw;
+        margin-bottom: -10px;
+    }
+
+    .casaProjetos p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
     }
 }
