@@ -319,22 +319,22 @@ footer{
     }
 
     nav{
-        justify-content: center;
+       justify-content: center;
        text-align: center;
     }
 
     .nav-list li {
         margin-left: 0px;
-      }
+    }
 
-      #direcionarPararBaixo p{
+    #direcionarPararBaixo p{
         font-size: 13px;
-      }
+    }
 
-      #direcionarPararBaixo img{
+    #direcionarPararBaixo img{
         width: 15px;
         margin-bottom: 10px;
-      }
+    }
 }
 
 /* @media(max-width: 700px){
@@ -451,10 +451,34 @@ footer{
     }
     
     #quemSomos p{
-        font-size: 17px;
+        font-size: 15px;
+        width: 80%;
     }
 
     #quemSomos{
         width: 80%;
+    }
+}
+
+/* RESPONSIVIDADE PROJETOS */
+
+@media(max-width:1400px){
+
+    #projetos h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:800px){
+
+    #projetos h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:450px){
+
+    #projetos h1{
+        font-size: 30px;
     }
 }
