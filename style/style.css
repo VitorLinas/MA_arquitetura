@@ -102,7 +102,6 @@ nav a{
 /* QUEM SOMOS */
 
 #quemSomos{
-    /* background-color: #545454; */
     background-color: #353434;
     color: white;
     text-align: center;
@@ -110,7 +109,6 @@ nav a{
     width: 80%;
     height: 600px;
     border-radius: 20px;
-
     background: #343434;  
     background: -webkit-linear-gradient(to right, #343434, #232222); 
     background: linear-gradient(to right, #343434, #232222); 
@@ -148,6 +146,8 @@ nav a{
     align-items: center;
     border-top: 3px solid #353434;
     border-bottom: 3px solid #353434;
+
+    background-color: #e3e2e0;
 }
 
 .casaProjetos img{
@@ -167,7 +167,6 @@ nav a{
 form h1{
     margin-top: 150px;
     font-size: 60px;
-    
     text-align: center;
     font-weight: 400;
 }
@@ -187,7 +186,6 @@ form h1{
 
 .interacaoForm input, .interacaoForm button{
     display: block;
-
 }
 
 .interacaoForm input, .interacaoForm textarea{
@@ -222,26 +220,19 @@ form h1{
 
 
 .imagemForm img{
-    /* float: right; */
     height: 100%;
 }
 
 ::placeholder{
     font-size: 20px;
-
 }
-
-
 
 .interacaoForm textarea::placeholder{
     text-align: center;
-  
-
 }
 
 .interacaoForm button{
-    margin: 30px auto;
-    
+    margin: 30px auto;  
 }
 
 
@@ -269,8 +260,7 @@ footer{
 
 #footerIcons p{
     font-size: 20px;
-    margin-top: 50px;
-    
+    margin-top: 50px;   
 }
 
 #footerIcons a{
@@ -286,9 +276,6 @@ footer{
 }
 
 
-/* ATÉ 1400PX O RESTANTE DA PÁGINA ESTA RESPONSIVO */
-
-
 /* RESPONSIVIDADE HEADER */
 
 @media(max-width: 1400px){
@@ -297,16 +284,13 @@ footer{
     }
     
     nav a{
-        
         font-size: 25px;
-        
     }
 }
 
 @media(max-width: 1100px){
     nav h1{
         font-size: 35px;
-      
     }
     
     nav a{
@@ -342,16 +326,9 @@ footer{
     }
 }
 
-/* @media(max-width: 700px){
-    nav h1{
-        font-size: 25px;
-    }
-} */
-
 @media(max-width: 700px){
     nav h1{
-        font-size: 20px;
-         
+        font-size: 20px;  
     }
 }
 
@@ -379,8 +356,7 @@ footer{
     }
     
     #quemSomos p{
-        font-size: 35px;
-        
+        font-size: 35px;    
     }
 }
 
@@ -391,8 +367,7 @@ footer{
     }
     
     #quemSomos p{
-        font-size: 30px;
-        
+        font-size: 30px;  
     }
 
     #quemSomos{
@@ -409,7 +384,6 @@ footer{
     
     #quemSomos p{
         font-size: 25px;
-        
     }
 
     #quemSomos{
@@ -531,8 +505,6 @@ footer{
 
 @media(max-width:450px){
 
-   
-
     .casaProjetos{
         display: block;
     }
@@ -562,7 +534,6 @@ footer{
     #formulario{
         width: 1000px;
         height: 500px;
-    
     }
 
     .interacaoForm input, .interacaoForm textarea{
@@ -589,7 +560,6 @@ footer{
     #formulario{
         width: 700px;
         height: 350px;
-    
     }
 
     .interacaoForm input, .interacaoForm textarea{
@@ -626,7 +596,6 @@ footer{
     #formulario{
         width: 450px;
         height: 300px;
-    
     }
 
     .interacaoForm input, .interacaoForm textarea{
@@ -661,8 +630,7 @@ footer{
 
     form h1{
         font-size: 30px;
-        margin-top: 55px;
-        
+        margin-top: 55px;  
     }
 
     #formulario{
@@ -706,12 +674,6 @@ footer{
 
 @media(max-width: 1400px){
     
-
-    /* footer{
-        
-        padding: 100px;
-    } */
-    
     #footerLogo{
         width: 150px;
     }
@@ -733,7 +695,6 @@ footer{
 
 @media(max-width: 1100px){
     
-
     #footerLogo{
         width: 120px;
     }
@@ -744,8 +705,7 @@ footer{
     }
     
     #footerIcons p{
-        font-size: 13px;
-        
+        font-size: 13px;  
     }
 
     #footerCopyright{    
@@ -754,6 +714,7 @@ footer{
 }
 
 @media(max-width: 950px){
+
     footer{
         display: block;
         text-align: center;
