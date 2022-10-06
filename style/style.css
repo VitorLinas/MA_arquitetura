@@ -437,6 +437,10 @@ footer{
     #quemSomos{
         width: 85%;
     }
+
+    #quemSomos{
+        height: 350px;
+    }
 }
 
 /* RESPONSIVIDADE PROJETOS */
