@@ -146,8 +146,7 @@ nav a{
     align-items: center;
     border-top: 3px solid #353434;
     border-bottom: 3px solid #353434;
-
-    background-color: #e3e2e0;
+    background-color: rgba(183, 183, 183, 0.282);
 }
 
 .casaProjetos img{
@@ -425,17 +424,18 @@ footer{
 }
 
 @media(max-width:450px){
+
     #quemSomos h1{
         font-size: 23px;
     }
     
     #quemSomos p{
         font-size: 15px;
-        width: 80%;
+        width: 90%;
     }
 
     #quemSomos{
-        width: 80%;
+        width: 85%;
     }
 }
 
