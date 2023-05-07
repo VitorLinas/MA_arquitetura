@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="style/imgs/MA (1).png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+    <title>MA arquitetura</title>
+</head>
+<body>
+    <a href="#menu"><input type="image" src="style/imgs/seta.SVG" id="seta"></a>
+    <header id="menu">
+        <nav>
+            <h1>MA</h1>
+
+            <ul class="nav-list">
+                <li><a href="#quemSomos">Quem somos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formulario">Orçamento</a></li>  
+            </ul>
+        </nav>
+
+        <img id="imagemPrincipal" src="style/imgs/FotoPrincipalCasa.jpg" alt="imagem principal">
+        
+
+        <div id="direcionarPararBaixo">
+            <p>CONHEÇA NOSSO TRABALHO</p>
+            <a href="#quemSomos"><img src="style/imgs/setaParaBaixo.png" alt="seta"></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="quemSomos">
+            <br><h1>Quem somos?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, voluptate.
+            Maiores temporibus dicta accusantium, optio, saepe similique pariatur perferendis
+            sequi repellat sunt qui excepturi non ullam voluptatem deserunt totam amet!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, nihil
+            quaerat veritatis nemo ea enim. Consectetur aperiam exercitationem culpa, magnam
+            quidem autem ex officia voluptatibus voluptas id. Nulla, atque iusto!</p>
+        </section>
+
+        <section id="projetos">
+            <h1>Projetos desenvolvidos</h1>
+            
+            <div class="casaProjetos">
+                <img src="style/imgs/casaProjetos1.jpg" alt="casa 1"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos aut saepe consectetur magni architecto alias hic facere deleniti voluptate, exercitationem voluptatem aliquam soluta quidem voluptatum sequi porro eaque ducimus.</p>
+            </div>
+
+            <div class="casaProjetos"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos aut saepe consectetur magni architecto alias hic facere deleniti voluptate, exercitationem voluptatem aliquam soluta quidem voluptatum sequi porro eaque ducimus.</p>
+                <img src="style/imgs/casaProjetos2.jpg" alt="casa 2">
+            </div>
+
+            <div class="casaProjetos">
+                <img src="style/imgs/casaProjetos3.jpg" alt="casa 3"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos aut saepe consectetur magni architecto alias hic facere deleniti voluptate, exercitationem voluptatem aliquam soluta quidem voluptatum sequi porro eaque ducimus.</p>
+            </div>
+
+            <div class="casaProjetos"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos aut saepe consectetur magni architecto alias hic facere deleniti voluptate, exercitationem voluptatem aliquam soluta quidem voluptatum sequi porro eaque ducimus.</p>
+                <img src="style/imgs/casaProjetos4.jpg" alt="casa 4">
+            </div>
+        </section>
+
+        <form action="">
+            <h1>Entre em contato e faça já o seu orçamento</h1>
+            <div id="formulario">
+                <div class="interacaoForm">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="E-mail">
+                    <textarea  cols="30" rows="10"></textarea>
+                    <button onclick="cadastrar()">Enviar</button>
+                </div>
+
+                <div class="imagemForm">
+                    <img src="style/imgs/paisagemForm.jpg" alt="">
+                </div>
+                
+            </div>
+        </form>
+    </main>
+
+    <footer>
+       <img src="style/imgs/MA (1).png" alt="logo" id="footerLogo">
+
+       <div id="footerIcons">
+        <p><a href="https://mail.google.com/mail/"><img src="style/imgs/iconeGmail.svg" alt="gmail">maarquitetura@gmail@gmail.com</p></a>
+        <p><a href="https://www.whatsapp.com/?lang=pt_br"><img src="style/imgs/iconeTelefone.png" alt="telefone">(99)9999-9999</p></a>
+        <p><a href="https://www.instagram.com/"><img src="style/imgs/iconeInstagram.svg" alt="instagram">@arquiteturaMA</p></a>
+       </div>
+
+       <div id="footerCopyright">
+        <p>© Copyright 2022 - MA<br> arquitetura Ltda - Todos os<br> direitos reservados.</p>
+       </div>
+    </footer>
+</body>
+<script src="script/script.js"></script>
+</html>
