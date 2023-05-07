@@ -327,7 +327,7 @@ footer{
 
 @media(max-width: 700px){
     nav h1{
-        font-size: 20px;  
+        font-size: 25px;  
     }
 }
 
@@ -335,7 +335,7 @@ footer{
 
     
  #imagemPrincipal{
-    height: 60vw;
+    height: 70vw;
  }  
 
  #direcionarPararBaixo p{
@@ -596,6 +596,7 @@ footer{
 
 @media(max-width:800px){
 
+
     form h1{
         font-size: 30px;
         margin-top: 70px;
@@ -607,7 +608,7 @@ footer{
     }
 
     .interacaoForm input, .interacaoForm textarea{
-        width: 200px;
+        width: 300px;
         font-size: 15px;
     }
     
@@ -625,57 +626,55 @@ footer{
     }
 
     .interacaoForm button{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .imagemForm img{
-        height: 100%;
-        width: 200px;
+        display: none;
     }
 }
 
 @media(max-width:450px){
 
     form h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 55px;  
     }
 
     #formulario{
         width: 350px;
-        height: 230px;
+        height: 350px;
         margin: 60px auto;
     }
 
     .interacaoForm input, .interacaoForm textarea{
-        width: 150px;
-        font-size: 13px;
+        width: 250px;
     }
     
     .interacaoForm textarea{
-        height: 55px;
+        height: 80px;
         border: 2px solid #353434;
     }
 
     .interacaoForm input{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top: 20px;
         border-bottom: 2px solid #353434;
     }
 
     ::placeholder{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .interacaoForm button{
-        font-size: 13px;
-        padding: 5px;
-        margin-top: 10px;
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 15px;
+        width: 80px;
+        
     }
 
-    .imagemForm img{
-        width: 140px;
-    }
+  
 }
 
 /* RESPONSIVIDADE RODAPÉ */
